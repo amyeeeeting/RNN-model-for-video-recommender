@@ -6,9 +6,12 @@ Input : A dictionary of user_id : [a list of item_id]
 Output : Hit ratio of the model
 
 # Result
-| | RNN  |  NCF    | Validation Loss   |Test Loss (Scale Inverted) |
-|----------| ------------- |------|-------| -----|
-|   hit@5    | 2       | ReLU       |    0.00029     | 114308 |
-|   hit@10    | 2       | Leaky ReLU       |    0.00029     | 115525 |
-|   hit@15    | 3       | ReLU       |    0.00029     | 201718 |
-|   hit@20    | 3       | Leaky ReLU       |    0.00028     | 108700 |
+| | RNN  |  NCF    |
+|----------| ------------- |------|
+|   hit@5    | 0.021       | 2.59       |
+|   hit@10    | 0.052       | 4.62       |
+|   hit@15    | 0.093       | 6.36       |
+|   hit@20    | 0.116       | 7.91       |
+|   hit@30    | 0.143       | 10.6       |
+
+
