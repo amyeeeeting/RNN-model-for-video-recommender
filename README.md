@@ -3,6 +3,7 @@ THis is a implementation of recurrent neural network which is a model that have 
 
 # Input & Output
 Input : A dictionary of user_id : [a list of item_id] 
+
 Output : Hit ratio of the model
 
 # Result
