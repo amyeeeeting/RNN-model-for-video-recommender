@@ -14,4 +14,4 @@ Output : Hit ratio of the model
 |   hit@20    | 0.116       | 7.91       |
 |   hit@30    | 0.143       | 10.6       |
 
-
+The columns represent RNN and NCF evaluation results on different top K hit ratio. However, we can observe that the NCF model seems to outperform RNN model in this datasets. The user bahavior seems to be influenced more by the content of movie itself than the movies he/she previously watched.
